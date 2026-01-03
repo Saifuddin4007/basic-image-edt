@@ -1,0 +1,154 @@
+:root{
+
+    /* bg colors */
+    --bg-primary-color: rgb(17, 17, 17);
+    --bg-secondary-color: rgb(34, 34, 34); 
+    --bg-active-color: rgb(233, 233, 233);
+    --bg-hover-color: rgb(50, 50, 50);
+    --bg-border-color: rgb(64, 64, 64);
+    --bg-accent-color: rgb(29, 161, 242);
+    --bg-extra-accent-color: rgb(26, 145, 218);
+    --bg-extra-active-color: rgb(176, 41, 41);
+
+    /* text colors */
+    --text-primary-color: rgb(237, 237, 237);
+    --text-secondary-color: rgb(200, 200, 200);
+    --text-placeholder-color: rgb(130, 130, 130);
+    --text-inactive-color: rgb(100, 100, 100);  
+    --text-tertiary-color: rgb(150, 150, 150);
+    --text-active-color: rgb(25, 25, 25);
+
+    /* icon colors */
+    --icon-primary-color: rgb(237, 237, 237);
+    --icon-secondary-color: rgb(150, 150, 150);
+    --icon-active-color: rgb(25, 25, 25);
+    
+    /* paddings */
+    --padding-small: 0.5rem;
+    --padding-medium: 1rem;
+    --padding-large: 1.5rem;
+    --padding-xlarge: 2rem;
+    --padding-2xl: 3rem;
+
+    /* border radius */
+    --border-radius-small: 4px;
+    --border-radius-medium: 8px;
+    --border-radius-large: 12px;
+    --border-radius-circle: 50%;
+
+    /*margins */
+    --margin-small: 0.5rem;
+    --margin-medium: 1rem;
+    --margin-large: 1.5rem;
+    --margin-xlarge: 2rem;
+    --margin-2xl: 3rem;
+
+    /* shadows */
+    --shadow-light: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    --shadow-medium: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    --shadow-heavy: rgba(0, 0, 0, 0.2   ) 0px 10px 15px -3px, rgba(0, 0, 0, 0.1) 0px 4px 6px -2px;      
+
+    /* transitions */
+    --transition-fast: 0.2s ease-in-out;        
+    --transition-medium: 0.4s ease-in-out;
+    --transition-slow: 0.6s ease-in-out;
+    --transition-extra-slow: 0.8s ease-in-out;
+    --transition-ultra-slow: 1s ease-in-out;
+
+    /* fonts */
+    --font-primary: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --font-secondary: 'Courier New', Courier, monospace;
+
+
+    /* z-index levels */    
+    --z-index-low: 10;
+    --z-index-medium: 50;
+    --z-index-high: 100;
+    --z-index-very-high: 150;
+    --z-index-highest: 200;
+
+
+    /* gutters */    
+    --gutter-small: 0.5rem;
+    --gutter-medium: 1rem;
+    --gutter-large: 1.5rem;
+    --gutter-xlarge: 2rem;
+    --gutter-2xl: 3rem;
+
+
+    /* line heights */    
+    --line-height-tight: 1.2;
+    --line-height-normal: 1.5;
+    --line-height-loose: 1.8;   
+
+    /* opacity levels */
+    --opacity-low: 0.3;
+    --opacity-medium: 0.6;
+    --opacity-high: 0.9;
+    
+    /* letter spacing */
+    --letter-spacing-tight: -0.5px;
+    --letter-spacing-normal: 0px;
+    --letter-spacing-wide: 0.5px;   
+
+    
+    /* box sizing */
+    --box-sizing-border-box: border-box;
+    --box-sizing-content-box: content-box;
+    --box-sizing-inherit: inherit;
+    --box-sizing-initial: initial;
+    --box-sizing-unset: unset;
+
+
+    /*fonts*/    
+    --font-size-small: 0.875rem;
+    --font-size-medium: 1rem;
+    --font-size-large: 1.25rem;
+    --font-size-xlarge: 1.5rem;
+    --font-size-2xl: 2rem;
+    --font-size-3xl: 3rem;
+
+
+    /* cursor styles */    
+    --cursor-default: default;
+    --cursor-pointer: pointer;  
+    --cursor-text: text;
+    --cursor-move: move;
+    --cursor-not-allowed: not-allowed;
+
+    /* flexbox properties */    
+    --flex-direction-row: row; 
+    --flex-direction-column: column;
+    --flex-justify-start: flex-start;
+    --flex-justify-center: center;
+    --flex-justify-end: flex-end;
+    --flex-align-start: flex-start;
+    --flex-align-center: center;
+    --flex-align-end: flex-end;
+    --flex-align-stretch: stretch;
+    --flex-align-baseline: baseline;
+
+
+    /* grid properties */    
+    --grid-auto-flow-row: row;
+    --grid-auto-flow-column: column;    
+    --grid-justify-start: start;
+    --grid-justify-center: center;
+    --grid-justify-end: end;
+    --grid-align-start: start;
+    --grid-align-center: center;
+    --grid-align-end: end;
+    --grid-align-stretch: stretch;
+    --grid-align-baseline: baseline;    
+
+
+    /* overflow properties */    
+    --overflow-visible: visible;    
+    --overflow-hidden: hidden;
+    --overflow-scroll: scroll;
+    --overflow-auto: auto;
+    
+
+    
+
+}
