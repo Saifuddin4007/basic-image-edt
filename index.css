@@ -154,3 +154,9 @@ main section .right .filter input[type="range"]::-webkit-slider-thumb {
     margin-top: calc((0.3rem - 1rem) / 2);
 
 }
+
+canvas{
+    max-width: 90%;
+    max-height: 90vh;
+    display: none;
+}
